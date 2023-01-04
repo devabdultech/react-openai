@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import send from "../assets/send.svg";
 import add from "../assets/add.svg";
 import message from "../assets/message.svg";
@@ -11,6 +11,7 @@ import updates from "../assets/updates.svg";
 import Buttons from '../components/Buttons';
 
 const SideBar = () => {
+
   return (
     <aside className='relative flex-col hidden md:flex lg:flex xl:flex md:w-[45%] lg:w-[35%] xl:w-[25%] bg-[#202123] px-2 py-4'>
             <div className='flex border rounded-md px-3 py-3 gap-3 cursor-pointer hover:bg-gray-500/10'>

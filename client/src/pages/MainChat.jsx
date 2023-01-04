@@ -59,7 +59,7 @@ const MainChat = () => {
 
                     <div className='w-full flex flex-col gap-1 border-t py-5 absolute bottom-0 max-w-[calc(100%-20px)]'>
                       <Buttons image={del} text='Clear Conversations' />
-                      <Buttons image={sun} text='Light Mode' />
+                      <Buttons image={sun} text='Light Mode' click={toggleDark} />
                       <Buttons image={discord} text='OpenAI Discord' href={'https://discord.gg/openai'} />
                       <Buttons image={updates} text='Updates & FAQ' href={'https://help.openai.com/en/collections/3742473-chatgpt'}/>
                       <Buttons image={logout} text='Log out' />

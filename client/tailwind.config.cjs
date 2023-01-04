@@ -4,6 +4,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  // darkMode: 'class',
   theme: {
     extend: {
       screens: {
@@ -12,7 +13,7 @@ module.exports = {
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px',
-      }
+      },
     },
   },
   plugins: [
