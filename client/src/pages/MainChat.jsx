@@ -29,7 +29,7 @@ const MainChat = () => {
           <SideBar />
           
           <main className='relative h-full w-full flex flex-col'>
-            <div className="flex flex-col overflow-y-scroll max-h-[calc(100%-130px)] lg:mx-auto">
+            <div className="flex flex-col overflow-y-scroll max-h-[calc(100%-130px)] lg:mx-auto scrollbar-thumb-gray-500 scrollbar-thin scrollbar-w-1.5 scrollbar-rounded-[12px]">
               <HumanChat />
               <GPTChat />
               <HumanChat />
