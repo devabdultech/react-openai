@@ -3,7 +3,7 @@ import test from "../assets/testimg.webp";
 
 const HumanChat = () => {
   return (
-    <div className='flex gap-4 bg-[#343541] p-5 lg:px-40'>
+    <div className='flex gap-3 bg-[#343541] p-5 lg:gap-4 xl:gap-4 lg:px-40'>
         <div className='min-w-[33px] max-w-[33px]'>
             <img className='w-full rounded-sm pt-1' src={test} alt='HumanProfile' />
         </div>

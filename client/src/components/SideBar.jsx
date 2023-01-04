@@ -12,7 +12,7 @@ import Buttons from '../components/Buttons';
 
 const SideBar = () => {
   return (
-    <aside className='flex-col hidden md:flex lg:flex xl:flex md:w-[45%] lg:w-[35%] xl:w-[25%] bg-[#202123] px-2 py-4'>
+    <aside className='relative flex-col hidden md:flex lg:flex xl:flex md:w-[45%] lg:w-[35%] xl:w-[25%] bg-[#202123] px-2 py-4'>
             <div className='flex border rounded-md px-3 py-3 gap-3 cursor-pointer hover:bg-gray-500/10'>
               <img className='w-5' src={add} alt='add' />
               <span>New Chat</span>
@@ -28,7 +28,7 @@ const SideBar = () => {
               </div>
             </div>
 
-            <div className='flex flex-col gap-1 border-t py-5'>
+            <div className='flex flex-col gap-1 border-t py-5 absolute bottom-0 w-full'>
               <Buttons image={del} text='Clear Conversations' />
               <Buttons image={sun} text='Light Mode' />
               <Buttons image={discord} text='OpenAI Discord' href={'https://discord.gg/openai'} />
